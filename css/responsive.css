@@ -1,0 +1,187 @@
+/* Media Queries */
+
+@media (min-width: 1200px) {
+}
+
+/* ---------------------------------------------------------------- small & standard Desktop(Landscape) -------------------------------------------------------------------------- */
+@media (min-width: 1200px) and (max-width: 1400px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1400px) {
+}
+
+@media (min-width: 1600px) {
+}
+
+@media (min-width: 1900px) {
+}
+
+@media (min-width: 300px) and (max-width: 1199px) {
+}
+
+@media (min-width: 577px) and (max-width: 1199px) {
+}
+
+@media (min-width: 300px) and (max-width: 991px) {
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+}
+
+@media (min-width: 768px) and (max-height: 567px) {
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+.home .content span{
+  font-size: 25px;
+}
+.home .content h3{
+  font-size: 35px;
+}
+.home .content button {
+  font-size: 15px;
+  padding: 8px 16px;
+}
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 400px) {
+}
+
+@media (min-width: 660px) and (max-width: 750px) {
+}
+
+/* ---------------------------------------------------------------- iPad(1024*768 -> Landscape) -------------------------------------------------------------------------- */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* ------------------------------------------------------------ iPad (768*1024 -> Vertical) --------------------------------------------------------------- */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* -------------------------------------------------------- Mobile(440)Vertical ----------------------------------------------------------- */
+
+@media (max-width: 440px) {
+  /* header */
+  .header-1 {
+    padding: 8px 16px;
+  }
+
+  .header-2 {
+    padding: 8px 16px;
+  }
+
+  /* home */
+  body {
+    font-size: 16px;
+  }
+
+  .home {
+    padding: 8px 16px;
+  }
+
+  .home .content {
+    text-align: center;
+  }
+
+  .home .content span {
+    font-size: 25px;
+  }
+
+  .home .content h3 {
+    font-size: 32px;
+  }
+
+  img {
+    width: 300px;
+    height: 300px;
+  }
+
+  /* banner-container */
+  .banner-container {
+    padding: 8px 16px;
+  }
+
+  .banner-container img {
+    height: 85%;
+  }
+
+  /* category */
+  .heading {
+    font-size: 32px;
+  }
+
+  .category .box-container {
+    padding: 8px 24px;
+  }
+
+  /* product */
+  .product .product-container {
+    padding: 8px 24px;
+  }
+
+  /* deal */
+  .deal {
+    background-position: left;
+    padding: 8px 16px;
+    text-align: center;
+  }
+
+  .deal .deal-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .deal .content .deal-container {
+    padding: 16px 12px 16px 12px;
+}
+
+  .deal .content .deal-container .box {
+    width: 23%;
+  }
+
+  /* contact */
+
+  .contact {
+    padding: 8px 16px;
+}
+
+/* subscribe */
+.subscribe {
+    padding: 8px 16px;
+}
+
+.subscribe .subs-heading {
+    font-size: 22px;
+    padding: 8px 0px;
+    text-align: center;
+}
+
+.subscribe form {
+    padding: 8px;
+}
+/* footer */
+.footer {
+    padding: 8px 16px;
+    text-align: center;
+}
+
+.footer .credit {
+    padding: 16px 8px;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+
+}
+/* ------------------------------------------ Landscape (iPhone) ------------------------------------ */
+
+@media (min-width: 577px) and (max-width: 767px) {
+}
