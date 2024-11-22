@@ -81,7 +81,7 @@ a.nav-link {
 /*-------- home --------*/
 
 .home {
-  padding: 16px 80px;
+  padding: 40px 80px;
 }
 
 .home .content span {
@@ -181,7 +181,7 @@ a.nav-link {
 
 #category .box-container {
   display: flex;
-  padding: 16px 80px;
+  /* padding: 16px 80px; */
 }
 
 #category .box-container .box {
@@ -240,8 +240,8 @@ a.nav-link {
 #product .product-container {
   display: flex;
   flex-wrap: wrap;
-  padding: 16px 80px;
-  margin-bottom: 20px;
+  /* padding: 16px 80px; */
+  /* margin-bottom: 20px; */
 }
 
 #product .product-container .box {

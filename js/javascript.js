@@ -1,4 +1,4 @@
-let currentDate = new Date('January 5, 2025 00:00:00').getTime();
+let currentDate = new Date('February 5, 2025 00:00:00').getTime();
 
 function CountDown(){
     let now = new Date().getTime();

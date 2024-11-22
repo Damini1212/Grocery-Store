@@ -35,16 +35,18 @@
 }
 
 @media (min-width: 577px) and (max-width: 767px) {
-.home .content span{
-  font-size: 25px;
-}
-.home .content h3{
-  font-size: 35px;
-}
-.home .content button {
-  font-size: 15px;
-  padding: 8px 16px;
-}
+  .home .content span {
+    font-size: 25px;
+  }
+
+  .home .content h3 {
+    font-size: 35px;
+  }
+
+  .home .content button {
+    font-size: 15px;
+    padding: 8px 16px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -59,10 +61,58 @@
 /* ---------------------------------------------------------------- iPad(1024*768 -> Landscape) -------------------------------------------------------------------------- */
 
 @media (min-width: 992px) and (max-width: 1199px) {
+  
 }
 
-/* ------------------------------------------------------------ iPad (768*1024 -> Vertical) --------------------------------------------------------------- */
+/* ------------------------------------------------------------ iPad (768*1024 -> Vertical) -------------------------------------------------------------- */
 @media (min-width: 768px) and (max-width: 991px) {
+  /* home */
+  .home .content span {
+    font-size: 28px;
+  }
+  .home .content h3 {
+    font-size: 40px;
+  }
+
+  /* heading */
+  .heading {
+    font-size: 42px;
+  }
+
+  /* banner */
+  .banner-container .banner {
+    height: 275px;
+  }
+  .banner-container .banner .content {
+    padding: 5px;
+  }
+  .banner-container .banner .content h3 {
+    font-size: 35px;
+  }
+  .banner-container .banner .content p {
+    font-size: 28px;
+  }
+
+  /* heading */
+  #deal {
+    padding: 16px 35px;
+}
+/* contact */
+#contact {
+  padding: 16px 35px;
+}
+
+/* subscribe */
+.subscribe {
+  padding: 16px 35px;
+}
+
+/* footer */
+.footer {
+  padding: 16px 35px;
+  text-align: center;
+
+}
 }
 
 /* -------------------------------------------------------- Mobile(440)Vertical ----------------------------------------------------------- */
@@ -114,7 +164,7 @@
 
   /* category */
   .heading {
-    font-size: 32px;
+    font-size: 25px;
   }
 
   .category .box-container {
@@ -126,62 +176,52 @@
     padding: 8px 24px;
   }
 
-  /* deal */
-  .deal {
+  /* Deal */
+
+  #deal {
+    padding: 10px 20px;
     background-position: left;
-    padding: 8px 16px;
-    text-align: center;
   }
 
-  .deal .deal-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .deal .content .deal-container {
-    padding: 16px 12px 16px 12px;
-}
-
-  .deal .content .deal-container .box {
-    width: 23%;
+  #deal .content .deal-container .box {
+    width: 22%;
   }
 
   /* contact */
 
-  .contact {
-    padding: 8px 16px;
-}
+  #contact {
+    padding: 10px 20px;
+  }
 
-/* subscribe */
-.subscribe {
-    padding: 8px 16px;
-}
-
-.subscribe .subs-heading {
-    font-size: 22px;
-    padding: 8px 0px;
-    text-align: center;
-}
-
-.subscribe form {
-    padding: 8px;
-}
-/* footer */
-.footer {
+  /* subscribe */
+  .subscribe {
     padding: 8px 16px;
     text-align: center;
-}
+  }
 
-.footer .credit {
+  .subscribe .subs-heading {
+    font-size: 20px;
+  }
+
+  .subscribe form {
+    padding: 4px;
+  }
+
+  /* footer */
+  .footer {
+    padding: 8px 16px;
+    text-align: center;
+  }
+
+  .footer .credit {
     padding: 16px 8px;
     font-size: 22px;
     margin-bottom: 10px;
+  }
 }
 
-
-}
 /* ------------------------------------------ Landscape (iPhone) ------------------------------------ */
 
 @media (min-width: 577px) and (max-width: 767px) {
+
 }
